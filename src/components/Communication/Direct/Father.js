@@ -1,7 +1,7 @@
 import React from 'react';
 import Child from './Child';
 
-const Father = () =>{
+const Father = () => {
 
   return (
     <div>

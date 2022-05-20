@@ -10,11 +10,13 @@
   flex-direction: column;
   min-width: 300px;
 }
+
 .Card .Conteudo {
   flex: 1;
   padding: 15px 0px;
   color: #000;
 }
+
 .Card .Footer {
   background: #000;
   color: #FFF;

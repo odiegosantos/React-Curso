@@ -8,18 +8,18 @@ const Mega = (props) => {
     const min = 1
     const max = 60
     const newNumber = parseInt(Math.random() * (max - min)) + min
-    return array.includes(newNumber) 
-        ? generateUncontainedNumber(array) : newNumber
+    return array.includes(newNumber)
+      ? generateUncontainedNumber(array) : newNumber
   };
 
   function generateNumber() {
     const novoArray = Array(props.amountNumber)
-        .fill(0)
-        .reduce((a) => {
-            const newNumber = generateUncontainedNumber(a)
-            return [...a, newNumber]
-        }, [])
-        .sort((a, b) => a - b)
+      .fill(0)
+      .reduce((a) => {
+        const newNumber = generateUncontainedNumber(a)
+        return [...a, newNumber]
+      }, [])
+      .sort((a, b) => a - b)
     setNumber(novoArray)
   };
 
@@ -29,7 +29,7 @@ const Mega = (props) => {
       <h4>{number.join(' - ')}</h4>
       <button onClick={generateNumber}>Generate Number</button>
     </div>
-  
+
   );
 };
 

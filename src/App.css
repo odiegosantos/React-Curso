@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: column;
 }
+
 .Cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .Cards .AlignItems {
   text-align: justify;
 }

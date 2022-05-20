@@ -35,15 +35,15 @@ class Counter extends React.Component {
 
         <h2>Counter</h2>
 
-        <Step 
+        <Step
           step={this.state.step}
-          onStepChange={this.changeStep}>  
+          onStepChange={this.changeStep}>
         </Step>
-        <Display 
+        <Display
           valor={this.state.valor}>
         </Display>
-        <Button 
-          onInc={this.inc} 
+        <Button
+          onInc={this.inc}
           onDec={this.dec}>
         </Button>
       </div>

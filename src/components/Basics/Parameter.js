@@ -9,5 +9,5 @@ const Parameter = (props) => {
     </>
   );
 };
-  
+
 export default Parameter;

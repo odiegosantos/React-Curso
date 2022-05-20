@@ -3,9 +3,9 @@ import React from 'react';
 const Child = (props) => {
 
   return (
-  <div>
-    <p>{props.children} - {props.lastName}</p>
-  </div>
+    <div>
+      <p>{props.children} - {props.lastName}</p>
+    </div>
   );
 };
 
